@@ -1,0 +1,1673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\effects\Sk1DPathEffect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkXfermode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\Sk2DPathEffect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\Sk64.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\config\sk_stdint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkAdvancedTypefaceMetrics.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkAnnotation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkArithmeticMode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\win\SkAutoCoInitialize.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkAvoidXfermode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkBitmap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\images\SkBitmapFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkBitmapSource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkBlendImageFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkBlitRow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkBlurDrawLooper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkBlurImageFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkBlurMaskFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkBoundaryPatch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkBounder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkCamera.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkCanvas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkChecksum.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkChunkAlloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkClipStack.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkColor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkColorFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkColorFilterImageFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkColorMatrix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkColorMatrixFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkColorPriv.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkColorShader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkColorTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkComposeShader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkCondVar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkCornerPathEffect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkCountdown.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkCubicInterval.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkCullPoints.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkDashPathEffect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkDataSet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkDeferredCanvas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkDeque.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkDevice.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkDiscretePathEffect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkDither.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkDraw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkDrawExtraPathEffect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkDrawFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkDrawLooper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkDumpCanvas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkEmbossMaskFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkEmptyShader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkEndian.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkFixed.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkFlate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkFlattenable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkFlattenableBuffers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkFloatBits.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkFloatingPoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkFontHost.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkGeometry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkGradientShader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkGraphics.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\win\SkHRESULT.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\images\SkImageDecoder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\images\SkImageEncoder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkImageFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\images\SkImageRef.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\images\SkImageRef_GlobalPool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkInstCnt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkInterpolator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\win\SkIStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\images\SkJpegUtility.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkJSON.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkKernel33MaskFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkLayerDrawLooper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkLayerRasterizer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkLightingImageFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkLineClipper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkMagnifierImageFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkMallocPixelRef.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkMask.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkMaskFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkMath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkMatrix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkMatrix44.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkMatrixConvolutionImageFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkMergeImageFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkMeshUtils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkMetaData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkMMapStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkMorphologyImageFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\images\SkMovie.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkNinePatch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkNullCanvas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkNWayCanvas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkOffsetImageFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkOSFile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkPackBits.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\images\SkPageFlipper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkPaint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkPaintFlagsDrawFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkParse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkParsePaint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkParsePath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkPath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkPathEffect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkPathMeasure.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkPicture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkPictureUtils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkPixelRef.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkPixelXorXfermode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkPoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkPorterDuff.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkPostConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkPreConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkProxyCanvas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkRandom.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkRasterizer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkReader32.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkRect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkRefCnt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkRegion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkRRect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkRunnable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkScalar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkScalarCompare.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkSerializationHelpers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkShader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkSingleInputImageFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkSize.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkStippleMaskFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkString.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkStrokeRec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkSurface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkTableColorFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkTableMaskFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTArray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTDArray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTDict.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTDStack.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTemplates.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkTestImageFilters.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\views\SkTextBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkThread.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkThread_platform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkThreadPool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTileGridPicture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTime.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTInternalLList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTLazy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTrace.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\effects\SkTransparentShader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTRegistry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\win\SkTScopedComPtr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTScopedPtr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTSearch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTypeface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkUnitMapper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkUnitMappers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkUnPreMultiply.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\config\SkUserConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkUtils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkWeakRefCnt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\SkWGL.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\SkWriter32.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\ARGB32_Clamp_Bilinear_BitmapShader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkAAClip.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkAntiRun.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkAutoKern.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBBoxHierarchy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBBoxHierarchyRecord.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBBoxRecord.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBitmapHeap.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBitmapProcShader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBitmapProcState.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBitmapProcState_filter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBitmapProcState_matrix.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBitmapProcState_procs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBitmapProcState_sample.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBitmapProcState_shaderproc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBitmapSampler.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBitmapSamplerTemplate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBitmapShader16BilerpTemplate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBitmapShaderTemplate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBlitBWMaskTemplate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBlitMask.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBlitter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkBuffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkConcaveToTriangles.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkConfig8888.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkCordic.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkCoreBlitters.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkCubicClipper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkDescriptor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkDeviceImageFilterProxy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkDeviceProfile.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkDrawProcs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkEdge.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkEdgeBuilder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkEdgeClipper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkFDot6.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkFilterProc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkFilterShader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkFloat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkFP.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkGlyph.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkGlyphCache.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkMaskGamma.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkMathPriv.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkOrderedReadBuffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkOrderedWriteBuffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkPaintDefaults.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkPathHeap.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkPathRef.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkPerspIter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkPictureFlat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkPicturePlayback.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkPictureRecord.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkPictureStateTree.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkPtrRecorder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkQuadClipper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkRasterClip.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkRefDict.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkRegionPriv.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkRTree.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkScalerContext.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkScan.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkScanPriv.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkSinTable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkSpriteBlitter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkSpriteBlitterTemplate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkStroke.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkStrokerPriv.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkTemplatesPriv.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkTextFormatParams.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkTextToPathIter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkTileGrid.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkTLList.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkTLS.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkTRefArray.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkTSort.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkTypefaceCache.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\SkUtilsArm.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\effects\gradients\SkTwoPointRadialGradient.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\effects\gradients\SkBitmapCache.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\effects\gradients\SkClampRange.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\effects\gradients\SkGradientShaderPriv.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\effects\gradients\SkLinearGradient.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\effects\gradients\SkRadialGradient.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\effects\gradients\SkRadialGradient_Table.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\effects\gradients\SkSweepGradient.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\effects\gradients\SkTwoPointConicalGradient.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\effects\SkBlurMask.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\effects\SkEmbossMask.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\effects\SkEmbossMask_Table.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\images\bmpdecoderhelper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\images\SkImageRefPool.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\images\SkScaledBitmapSampler.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkIBMFamilyClass.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkTypedEnum.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_glyf.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_head.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_hhea.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_loca.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_maxp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_maxp_CFF.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_maxp_TT.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_name.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_OS_2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_OS_2_V0.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_OS_2_V1.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_OS_2_V2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_OS_2_V3.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_OS_2_V4.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_OS_2_VA.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTable_post.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTTableTypes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkOTUtils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkPanose.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkPreprocessorSeq.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sfnt\SkSFNTHeader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\win\SkDWriteFontFileStream.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\win\SkDWriteGeometrySink.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\SkBase64.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\SkBitmapChecksummer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\SkBitmapTransformer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\SkBitSet.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\SkCityHash.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\SkDebugTrace.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\SkFloatUtils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\SkThreadUtils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\SkThreadUtils_win.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ports\SkFontDescriptor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\pipe\SkGPipeRead.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pipe\SkGPipeWrite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkXfermode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\Sk64.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkAAClip.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkAdvancedTypefaceMetrics.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkAlphaRuns.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkAnnotation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBBoxHierarchy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBBoxHierarchyRecord.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBBoxRecord.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBitmap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBitmap_scroll.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBitmapHeap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBitmapProcShader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBitmapProcState.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBitmapProcState_matrixProcs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBitmapSampler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBlitMask_D32.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBlitRow_D16.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBlitRow_D32.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBlitRow_D4444.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBlitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBlitter_4444.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBlitter_A1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBlitter_A8.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBlitter_ARGB32.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBlitter_RGB16.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBlitter_Sprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkCanvas.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkChunkAlloc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkClipStack.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkColor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkColorFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkColorTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkComposeShader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkConcaveToTriangles.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkConfig8888.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkCordic.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkCubicClipper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\image\SkDataPixelRef.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkDebug.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkDeque.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkDevice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkDeviceProfile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkDither.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkDraw.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkEdge.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkEdgeBuilder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkEdgeClipper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkFilterProc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkFlate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkFlattenable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkFlattenableBuffers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkFloat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkFloatBits.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkFontHost.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkGeometry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkGlyphCache.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkGraphics.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\image\SkImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\image\SkImage_Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\image\SkImage_Picture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\image\SkImage_Raster.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkImageFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\image\SkImagePriv.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkInstCnt.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkLineClipper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkMallocPixelRef.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkMask.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkMaskFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkMaskGamma.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkMath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkMatrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkMetaData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkOrderedReadBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkOrderedWriteBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPackBits.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPaint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPathEffect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPathHeap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPathMeasure.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPicture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPictureFlat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPicturePlayback.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPictureRecord.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPictureStateTree.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPixelRef.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPoint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkProcSpriteBlitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkPtrRecorder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkQuadClipper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkRasterClip.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkRasterizer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkRect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkRefCnt.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkRefDict.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkRegion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkRegion_path.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkRegion_rects.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkRRect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkRTree.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkScalar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkScalerContext.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkScan.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkScan_Antihair.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkScan_AntiPath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkScan_Hairline.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkScan_Path.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkShader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkSpriteBlitter_ARGB32.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkSpriteBlitter_RGB16.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkString.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkStroke.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkStrokeRec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkStrokerPriv.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\image\SkSurface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\image\SkSurface_Picture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\image\SkSurface_Raster.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkTileGrid.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkTileGridPicture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkTLS.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkTSearch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkTypeface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkTypefaceCache.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkUnPreMultiply.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkUtils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkUtilsArm.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\SkWriter32.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\gradients\SkBitmapCache.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\gradients\SkClampRange.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\gradients\SkGradientShader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\gradients\SkLinearGradient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\gradients\SkRadialGradient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\gradients\SkSweepGradient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\gradients\SkTwoPointConicalGradient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\gradients\SkTwoPointRadialGradient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\Sk1DPathEffect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkTransparentShader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\Sk2DPathEffect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkArithmeticMode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkAvoidXfermode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkBitmapSource.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkBlendImageFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkBlurDrawLooper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkBlurImageFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkBlurMask.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkBlurMaskFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkColorFilterImageFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkColorFilters.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkColorMatrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkColorMatrixFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkCornerPathEffect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkDashPathEffect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkDiscretePathEffect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkEmbossMask.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkEmbossMaskFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkKernel33MaskFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkLayerDrawLooper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkLayerRasterizer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkLightingImageFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkMagnifierImageFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkMatrixConvolutionImageFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkMergeImageFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkMorphologyImageFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkOffsetImageFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkPaintFlagsDrawFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkPixelXorXfermode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkPorterDuff.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkSingleInputImageFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkStippleMaskFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkTableColorFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkTableMaskFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effects\SkTestImageFilters.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ports\SkImageDecoder_WIC.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\bmpdecoderhelper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkBitmapFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkImageDecoder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkImageDecoder_Factory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkImageDecoder_libbmp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkImageDecoder_libico.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkImageDecoder_libjpeg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkImageDecoder_libpng.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkImageDecoder_wbmp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkImageEncoder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkImageRef.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkImageRef_GlobalPool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkImageRefPool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkImages.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkJpegUtility.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkMovie.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkPageFlipper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\images\SkScaledBitmapSampler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sfnt\SkOTUtils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\opts\opts_check_SSE2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\opts\SkUtils_opts_SSE2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\opts\SkBitmapProcState_opts_SSE2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\opts\SkBlitRect_opts_SSE2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\opts\SkBlitRow_opts_SSE2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\win\SkAutoCoInitialize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkUnitMappers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\win\SkDWriteFontFileStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\win\SkDWriteGeometrySink.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\win\SkHRESULT.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\win\SkIStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\win\SkWGL_win.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkBase64.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkBitmapChecksummer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkBitmapTransformer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkBitSet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkBoundaryPatch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkCamera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkCityHash.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkCondVar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkCountdown.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkCubicInterval.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkCullPoints.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkDeferredCanvas.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkDumpCanvas.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkInterpolator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkLayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkMatrix44.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkMeshUtils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkNinePatch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkNullCanvas.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkNWayCanvas.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkOSFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkParse.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkParseColor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkParsePath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkPictureUtils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkProxyCanvas.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkThreadPool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\SkThreadUtils_win.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\views\SkTextBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ports\SkDebug_win.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ports\SkXMLParser_empty.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ports\SkFontDescriptor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ports\SkFontHost_sandbox_none.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ports\SkFontHost_tables.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ports\SkFontHost_win.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ports\SkGlobalInitialization_default.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ports\SkMemory_malloc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ports\SkOSFile_stdio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ports\SkThread_win.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ports\SkTime_win.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\opts\SkBitmapProcState_opts_SSSE3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

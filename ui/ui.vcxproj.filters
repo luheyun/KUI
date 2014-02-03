@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Graphics">
+      <UniqueIdentifier>{e0da894c-66fa-4a69-9bf3-f8470aefd91e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Graphics\GdiPlus">
+      <UniqueIdentifier>{b608e322-fbeb-405a-8b31-2253e4ef85d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Graphics\Skia">
+      <UniqueIdentifier>{53b149a8-a153-4076-9b20-75c5995e89c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Graphics\Gdi">
+      <UniqueIdentifier>{944eb93c-6317-4b11-a4ef-99bcc251d5ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\UIDefine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\view.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\widget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RootView.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\skia\SkiaGraphics.h">
+      <Filter>src\Graphics\Skia</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\Graphics.h">
+      <Filter>src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\skia\SkiaHelper.h">
+      <Filter>src\Graphics\Skia</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Panel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Color.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Canvas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Size.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Image.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\skia\SkiaImage.h">
+      <Filter>src\Graphics\Skia</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\eventHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Matrix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\GdiPlus\GdiPlusGraphics.h">
+      <Filter>src\Graphics\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\GdiPlus\GdiPlusImage.h">
+      <Filter>src\Graphics\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\GdiPlus\GdiplusHelper.h">
+      <Filter>src\Graphics\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KString.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StringHelper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KFont.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KFontFamily.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KPoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KPen.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\Gdi\GdiGraphics.h">
+      <Filter>src\Graphics\Gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KRect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KSolidBrush.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KRegion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\skia\SkiaRegion.h">
+      <Filter>src\Graphics\Skia</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\GdiPlus\GdiplusRegion.h">
+      <Filter>src\Graphics\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\Gdi\GdiHelper.h">
+      <Filter>src\Graphics\Gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\Gdi\GdiImage.h">
+      <Filter>src\Graphics\Gdi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\view.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RootView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Canvas.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\skia\SkiaGraphics.cpp">
+      <Filter>src\Graphics\Skia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\Graphics.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Color.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\skia\SkiaHelper.cpp">
+      <Filter>src\Graphics\Skia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Panel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Image.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\skia\SkiaImage.cpp">
+      <Filter>src\Graphics\Skia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eventHandler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Matrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\GdiPlus\GdiPlusGraphics.cpp">
+      <Filter>src\Graphics\GdiPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\GdiPlus\GdiPlusImage.cpp">
+      <Filter>src\Graphics\GdiPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\GdiPlus\GdiplusHelper.cpp">
+      <Filter>src\Graphics\GdiPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Brush.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Brush.h">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KString.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StringHelper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KFont.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KFontFamily.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KPoint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KPen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\Gdi\GdiGraphics.cpp">
+      <Filter>src\Graphics\Gdi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KRect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KSolidBrush.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="include\KRegion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\skia\SkiaRegion.cpp">
+      <Filter>src\Graphics\Skia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\GdiPlus\GdiplusRegion.cpp">
+      <Filter>src\Graphics\GdiPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\Gdi\GdiHelper.cpp">
+      <Filter>src\Graphics\Gdi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\Gdi\GdiImage.cpp">
+      <Filter>src\Graphics\Gdi</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
